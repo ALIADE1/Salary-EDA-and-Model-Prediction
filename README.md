@@ -1,4 +1,5 @@
 # Salary EDA & Prediction
+https://www.kaggle.com/code/a7lia8del/salary-eda-and-prediction
 
 This repository provides an exploratory data analysis (EDA) and predictive modeling notebook focusing on salary data. The notebook applies various preprocessing techniques, visualization tools, and machine learning methods to analyze and predict salaries based on the dataset.
 
