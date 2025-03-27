@@ -1,23 +1,28 @@
-# Salary EDA & Prediction
-https://www.kaggle.com/code/a7lia8del/salary-eda-and-prediction
+# Salary EDA & Model Prediction
+https://www.kaggle.com/code/a7lia8del/salary-eda-model-prediction
 
-This repository provides an exploratory data analysis (EDA) and predictive modeling notebook focusing on salary data. The notebook applies various preprocessing techniques, visualization tools, and machine learning methods to analyze and predict salaries based on the dataset.
+## Overview
+This project explores salary data using **Exploratory Data Analysis (EDA)** and applies **Machine Learning models** to predict salaries. The dataset is analyzed for insights, and various preprocessing techniques are used to build an effective model.
 
----
+## Dataset
+The dataset contains salary-related information, including categorical and numerical features. It undergoes preprocessing before being used for model training.
 
-## Key Features
+## Project Workflow
+1. **Data Loading & Exploration**
+   - Import dataset
+   - Handle missing values
+   - Summary statistics and visualizations
 
-### 1. Exploratory Data Analysis (EDA)
-- Investigates the structure and distribution of the dataset.
-- Analyzes key features and their relationships to salary.
+2. **Data Preprocessing**
+   - Encoding categorical variables
+   - Feature scaling
+   - Train-test split
 
-### 2. Data Preprocessing
-- Encodes categorical features using **Label Encoding**.
-- Scales numerical features with **StandardScaler**.
-- Splits the dataset into training and testing subsets for predictive modeling.
+3. **Exploratory Data Analysis (EDA)**
+   - Visualizations using **Matplotlib** and **Seaborn**
+   - Feature correlation analysis
+   - Salary distribution insights
 
-### 3. Predictive Modeling
-- Implements a **Linear Regression** model to predict salaries.
-- Evaluates the model using metrics such as:
-  - **Accuracy Score**
-  - **R2 Score**
+4. **Model Training & Evaluation**
+   - Training models like **Linear Regression**
+   - Evaluating performance using **Mean Squared Error (MSE)** and **Mean Absolute Error (MAE)**
